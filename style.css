@@ -14,7 +14,7 @@ body {
 
 /* Home page up first. */
 
-.quote .home {
+.quote-home {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
@@ -37,7 +37,14 @@ into a proper menu once I have javascript. */
     margin-left: 35%;
 }
 
-/* Gouda Quesadilla */
+/* These generally apply to the pages, but not the
+homepage. Page specific (ie. only for queso) classes
+are generally labelled '.*-recipe' to help with
+navigation and legibility */
+
+.photo-description {
+    font-size: 13px;
+}
 
 .recipe-story {
     text-align: left;
@@ -46,7 +53,7 @@ into a proper menu once I have javascript. */
     margin-right: 5%;
 }
 
-.quote-quesadilla {
+.quote {
     font-weight: 100;
     margin-top: -10px;
     font-style: italic;
