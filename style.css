@@ -1,3 +1,30 @@
-#test {
-    background-color: yellow;
+/* background and overall page design first, should
+be shared across all pages. */
+
+body {
+    background-color: hsl(50, 50%, 90%);
+    margin: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Home page up first. */
+
+.quote{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4%;
+}
+
+/* The goal with this list is to keep it centered on
+the page without disrupting the scaling, or layout
+of the bullet points in relation to the text. Maybe
+the solution is to turn them all into buttons instead
+of text links and move the entire menu into the top
+left corner. I will currently leave it and turn it
+into a proper menu once I have javascript. */
+.list {
+    text-align: left;
+    margin-left: 35%;
+}
+
