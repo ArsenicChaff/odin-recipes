@@ -32,7 +32,7 @@ the solution is to turn them all into buttons instead
 of text links and move the entire menu into the top
 left corner. I will currently leave it and turn it
 into a proper menu once I have javascript. */
-.list {
+.list-home{
     text-align: left;
     margin-left: 35%;
 }
@@ -47,5 +47,35 @@ into a proper menu once I have javascript. */
 }
 
 .quote-quesadilla {
+    font-weight: 100;
+    margin-top: -10px;
+    font-style: italic;
     text-indent: 0%;
+    max-width: 70%;
+    margin-left: 16%;
+}
+
+.list-title {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 40%;
+}
+
+.list-item {
+    margin-top: 0%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.ingredients {
+    margin-left: 30%;
+    text-align: left;
+    max-width: 40%;
+}
+
+.list-text {
+    text-align: left;
+    margin-left: 10%;
+    max-width: 75%;
 }
